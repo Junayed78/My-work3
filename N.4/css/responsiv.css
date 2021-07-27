@@ -1,0 +1,54 @@
+/*tab css*/
+@media only screen and (min-width:200px) and (max-width:991px){
+.mini_menu {	width: 60%;}
+.social_area {width: 40%;}
+#main_menu ul li {margin-right: 4px;}
+#main_menu ul li a {padding: 0px;}
+.inner_menu {
+	min-height: 20px;
+	padding-top: 30px;
+}
+.inner_bottom_header {padding: 25px 0;}
+.inner_slider img {
+	float: right;
+	width: 60%;
+	padding-left:0;
+}
+.inner_menu {min-height: 0px;padding-top: 0px;padding-bottom: 0px;border-bottom: 0;}
+.aligenleft {margin-left: 0;margin-bottom: 15px;width: 40%;padding-top: 90px;}
+
+.text_area {width: 60%;}
+.child_shout{ width: 60%;
+	padding-left: 10px;
+}
+.link_shout{width: 35%;
+	padding: 35px 10px;
+}
+.child_shout h1 { font-size: 25px; }
+.child_shout p { font-size: 15px;}
+}	
+/*mobile css*/
+@media only screen and (min-width:200px) and (max-width:480px){
+.mini_menu,.social_area { width: 100%; margin-bottom: 10px;}
+.inner_bottom_header {padding: 15px 0;}
+.mini_menu ul,.social_area ul { text-align: center;}
+	.logo_area {float: none;width: 240px;margin: 0 auto;text-align: center;
+	}
+	.search_area {float: none;width: 240px;padding-top: 5px;margin: 0 auto;text-align: center;
+	}
+	.search_area form input { width: 180px;}
+	.search_area form input[type="submit"] { width: 55px;}
+	.sl_text_area {float: none;width: 100%;}
+	.sl_text_area h2 {font-size: 22px;}
+	.sl_text_area a {float: right;}
+	.inner_slider img {float: none;width: 100%;}
+	.inner_into {padding: 15px 0;}
+	.aligenleft {width: 100%;padding-top: 0px;}
+	.text_area {width: 100%;padding-top: 10px;}
+	.child_shout {width: 96%;padding-left: 5px;}
+	.link_shout {width: 96%;padding: 0 0px 15px;text-align: center;}
+	.rock{width: 96%;}
+	.rock input,.rock textarea {max-width:none ;}
+	.left_copyright {float: none;width: 96%;}
+	.right_copyright {float: none;text-align: left;width: 96%;}
+}
